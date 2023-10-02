@@ -1,0 +1,29 @@
+// Colors
+$base-txt-color-dark: #313638;
+$base-txt-color-light: #e8e9eb;
+
+$red: #ef6461;
+$yellow: #e4b363;
+$orange: #ea8462;
+$black: $base-txt-color-dark;
+$light-grey: $base-txt-color-light;
+$dark-grey: #a8a8a8;
+$white: #fff;
+
+// Transitions
+$trans-01: all 0.1s ease;
+$trans-02: all 0.2s ease;
+$trans-03: all 0.3s ease;
+$trans-04: all 0.4s ease;
+$trans-05: all 0.5s ease;
+
+// Fonts
+$heading-font: "Merriweather", serif;
+$paragraph-font: "Questrial", sans-serif;
+
+// Box Shadow
+$card-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+$button-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+// Border Radius
+$card-radius: 6px;

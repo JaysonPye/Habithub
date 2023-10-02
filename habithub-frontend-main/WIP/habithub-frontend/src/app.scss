@@ -1,0 +1,70 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #fdf4ee,
+    #fcf6ee,
+    #fdf1ed,
+    $light-grey
+  );
+  background-attachment: fixed;
+  height: 100vh;
+  color: $base-txt-color-dark;
+  width: calc(100% - 98px);
+  position: relative;
+  left: 88px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  margin-bottom: 15px;
+  font-language-override: 1;
+}
+
+h1 {
+  font-size: 32px;
+  @media all and (max-width: 900px) {
+    font-size: 25px;
+  }
+}
+
+p {
+  font-family: $paragraph-font;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.body {
+  padding: 8px 40px;
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+label,
+span.body-content {
+  font-family: $paragraph-font;
+}
+
+hr {
+  border: 0;
+  height: 0.1px;
+  width: 100%;
+  background: $dark-grey;
+}

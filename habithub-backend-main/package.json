@@ -1,0 +1,32 @@
+{
+  "name": "habithub-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s3851446/habithub-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s3851446/habithub-backend/issues"
+  },
+  "homepage": "https://github.com/s3851446/habithub-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-jwt": "^8.2.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "mongoose-type-email": "^1.1.2",
+    "nodemailer": "^6.9.1"
+  }
+}
